@@ -1,5 +1,5 @@
 # Simple recommendation engine
-Hoppy project for learning Apache Spark. I implemented a recommendation engine using Apache Mahout using Item-Item similarities. I'd like to test the same in spark that uses a different algorithm.
+Hoppy project for learning Apache Spark. I implemented a recommendation engine using Apache Mahout a while ago. Mahout uses Item-Item similarities. I'd like to test the same in Spark as it uses a different algorithm.
 
 Example data can be downloaded from: [https://grouplens.org/datasets/movielens/](https://grouplens.org/datasets/movielens/) 
 
@@ -13,6 +13,6 @@ Training should take less than a minute with the small dataset at: [https://grou
 ## Todos
 Just started this project and there's a lot of stuff to do:
 * Verification of training result
-* Persisting model
+* Persisting model (at the moment recommendation are not instantaneous)
 * Item based recommendations
 * Custom number of recommendations
