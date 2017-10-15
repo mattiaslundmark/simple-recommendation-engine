@@ -1,5 +1,5 @@
 # Simple recommendation engine
-Hoppy project for learning Apache Spark. I implemented a recommendation engine using Apache Mahout a while ago. Mahout uses Item-Item similarities. I'd like to test the same in Spark as it uses a different algorithm.
+Hoppy project for learning Apache Spark. I implemented a recommendation engine using Apache Mahout a while ago. Mahout uses Item-Item similarities in it's collaborative filtering algorithm. I'd like to test the same in Spark as it uses a different collaborative filtering algorithm.
 
 Example data can be downloaded from: [https://grouplens.org/datasets/movielens/](https://grouplens.org/datasets/movielens/) 
 
